@@ -1,2 +1,2 @@
-# jquery-form-validation
-Simple form validation example with jQuery
+# jquery form validation
+Simple form validation example with jQuery.

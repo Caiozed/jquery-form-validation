@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/master.css" type="text/css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/master.js"></script>
+        <title>Jquery Singup</title>
+    </head>
+    <body>
+  <header class="container">
+    <h1 id="title">Jquery Singup</h1>
+  </header>
+
+  <div class="container container-shadow grid">
+    <article class="content">
+      <header>
+        <h1>
+        Sign Up Now!
+      </h1>
+      </header>
+      <form id="signup" class="col-3-4">
+        <label>You e-mail*</label>
+        <input id="email" type="email" name="email" required>
+        <label>Confirm e-mail*</label>
+        <input id="email_confirmation" type="email" name="email_confirmation" required>
+        <label>Phone (recommended)</label>
+        <input id="phone" type="text" name="phone">
+        <p class="form-span">Standard call, messaging or data rates may apply.</p>
+        <label>Password*</label>
+        <input id="password" type="password" name="password" required minlength="5">
+        <label>Confirm Password*</label>
+        <input id="password_confirmation" type="password" name="password_confirmation" required minlength="5">
+        <div class="remember-me">
+          <input id="rememberme" type="checkbox" name="rememberme">
+          <span>Remeber me</span>
+        </div>
+        <button class="btn">
+          <span>IMG</span>
+          <span>SIGN UP</span>
+        </button>
+        <p class="footer-text">
+          * required fields.
+        </p>
+        <p class="footer-text">
+          By clicking Sign Up you agree to our Terms of Use and Privacy Statement
+        </p>
+      </form>
+
+      <ul class="col-1-4">
+        <h4>Why you'll love it</h4>
+        <li>See all your things in one place</li>
+        <li>Find the best ways to grow your things</li>
+        <li>Stay safe and secure you things</li>
+      </ul>
+    </article>
+  </div>
+</body>
+
+</html>
